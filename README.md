@@ -9,7 +9,7 @@ Bu repo yalnızca **derlenmiş binary dağıtım** içindir; kaynak kod burada y
 Xcode → File → Add Package Dependencies → şu adresi girin:
 
 ```
-https://github.com/orhangencer-dem/cookienox-ios-sdk-dist
+https://github.com/DemTeknoloji/cookienox-ios-sdk-dist
 ```
 
 Sürüm kuralı olarak **Up to Next Major Version**, `0.1.0` seçin.
