@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "CookieNoxSDK",
-            url: "https://github.com/DemTeknoloji/cookienox-ios-sdk-dist/releases/download/v0.2.0/CookieNoxSDK.xcframework.zip",
-            checksum: "79059f3728ffccd21c4c9a094ef9602725d8a99a1b7816df4a56f278c31cf315"
+            url: "https://github.com/DemTeknoloji/cookienox-ios-sdk-dist/releases/download/v0.3.0/CookieNoxSDK.xcframework.zip",
+            checksum: "75060dc043fe7deed4c535d1be4f8904cc326ab1d4f34ac34c237cad41302c31"
         ),
     ]
 )
