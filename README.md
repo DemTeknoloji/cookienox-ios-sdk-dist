@@ -12,7 +12,7 @@ Xcode → File → Add Package Dependencies → şu adresi girin:
 https://github.com/DemTeknoloji/cookienox-ios-sdk-dist
 ```
 
-Sürüm kuralı olarak **Up to Next Major Version**, `0.1.0` seçin.
+Sürüm kuralı olarak **Up to Next Major Version**, `0.1.0` seçin. Gereksinim: iOS 15+.
 
 ## Kullanım
 
@@ -24,7 +24,8 @@ CookieNox.shared.configure(
     baseURL: "https://app.cookienox.com"
 )
 
-CookieNox.shared.showSequentialConsentIfNeeded()
+// Panelde seçilen gösterim tipine göre (sıralı / banner) gerekirse rıza ekranını açar
+CookieNox.shared.showConsentIfNeeded()
 
 // Ayarlar ekranınızda:
 // CookieNox.shared.showPreferenceCenter()
